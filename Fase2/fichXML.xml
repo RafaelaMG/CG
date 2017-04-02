@@ -1,0 +1,173 @@
+<cena nome="Sistema Solar">
+			<grupo nome="Sol">
+				<escala X="1.5" Y="1.5" Z="1.5" />
+				<cor R="1" G="0.25" B="0"/>
+				<modelos>
+					<modelo ficheiro="esfera.3d" />
+				</modelos>
+
+				<grupo nome= "Mercurio">
+					<translacao X="4"   />
+					<rotacao angulo="45" X="1" Y="1" Z="1"/>
+					<escala X="0.035" Y="0.035" Z="0.035" />
+					<cor R="0.52" G="0.7" B="0.26"/>
+					<modelos>
+						<modelo ficheiro="esfera.3d" />
+					</modelos>
+				</grupo>
+				<grupo nome= "Venus">
+					<translacao X="7"   />
+					<rotacao angulo="45" X="1" Y="1" Z="1"/>
+					<escala X="0.086" Y="0.086" Z="0.086" />
+					<cor R="1" G="0" B="0"/>
+					<modelos>
+						<modelo ficheiro="esfera.3d" />
+					</modelos>
+				</grupo>
+				<grupo  nome= "Terra">
+					<translacao X="12.16"  />
+					<escala X="0.09" Y="0.09" Z="0.09" />
+					<cor R="0" G="0" B="1"/>
+					<modelos>
+						<modelo ficheiro="esfera.3d" />
+					</modelos>
+
+					<grupo nome="Lua">
+						<translacao X="0.7" Y="0.5" Z="0.7"  />
+						<escala X="0.272" Y="0.272" Z="0.272" />
+						<cor R="0.329412" G="0.329412" B="0.329412"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+				</grupo>
+
+				<grupo nome= "Marte"> 
+					<translacao X="20.46" />
+					<escala X="0.048" Y="0.048" Z="0.048" />
+					<cor R="9.6" G="0.4" B="0.3"/>
+					<modelos>
+						<modelo ficheiro="esfera.3d" />
+					</modelos>
+				</grupo>
+
+				<grupo  nome= "Jupiter">
+					<translacao X="35.9"  />
+					<escala X="0.9" Y="0.9" Z="0.9" />
+					<cor R="3.6" G="0.4" B="0.0"/>
+					<modelos>
+						<modelo ficheiro="esfera.3d" />
+					</modelos>
+
+					<grupo nome="jLua1-Ganymede">
+						<translacao X="2" Y="5" Z="2"  />
+						<escala X="0.038" Y="0.038" Z="0.038" />
+						<cor R="3.6" G="0.4" B="0.0"/>	
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+
+					<grupo nome="jLua2-Callisto">
+						<translacao X="-4" Y="4" Z="2"  />
+						<escala X="0.035" Y="0.035" Z="0.035" />
+						<cor R="3.6" G="0.4" B="0.0"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+
+					<grupo nome="jLua3-Io">
+						<translacao X="2" Y="-3" Z="0"  />
+						<escala X="0.026" Y="0.026" Z="0.026" />
+						<cor R="3.6" G="0.4" B="0.0"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+
+					<grupo nome="jLua4-Europa">
+						<translacao X="-4" Y="-4" Z="2"  />
+						<escala X="0.022" Y="0.022" Z="0.022" />
+						<cor R="3.6" G="0.4" B="0.0"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+				</grupo>
+
+				<grupo  nome= "Saturno">
+					<translacao X="89.9"  />
+					<escala X="0.86" Y="0.86" Z="0.86" />
+					<cor R="0.91" G="0.76" B="0.65"/>
+					<modelos>
+						<modelo ficheiro="esfera.3d" />
+					</modelos>
+
+					<grupo nome="sLua1-titan">
+						<translacao X="1" Y="2.5" Z="1"  />
+						<escala X="0.042" Y="0.042" Z="0.042" />
+						<cor R="0.91" G="0.76" B="0.65"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+
+					<grupo nome="sLua2-Rhea">
+						<translacao X="-2" Y="2" Z="2"  />
+						<escala X="0.012" Y="0.012" Z="0.012" />
+						<cor R="0.91" G="0.76" B="0.65"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+
+					<grupo nome="sLua3-Kapetus">
+						<translacao X="1" Y="-1.5" Z="0"  />
+						<escala X="0.012" Y="0.012" Z="0.012" />
+						<cor R="0.91" G="0.76" B="0.65"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+
+
+					<grupo nome="sLua4-Di" >
+						<translacao X="-2" Y="-1" Z="2"  />
+						<escala X="0.009" Y="0.009" Z="0.009" />
+						<cor R="0.91" G="0.76" B="0.65"/>
+						<modelos>
+							<modelo ficheiro="esfera.3d" />
+						</modelos>
+					</grupo>
+				</grupo>
+
+			</grupo>
+
+			<grupo  nome= "Urano">
+				<translacao X="143.3"  />
+				<escala X="0.36" Y="0.36" Z="0.36" />
+				<cor R="0.439216" G="0.858824" B="0.576471"/>
+				<modelos>
+					<modelo ficheiro="esfera.3d" />
+				</modelos>
+			</grupo>
+
+			<grupo  nome= "Neptuno">
+				<translacao X="215.5"  />
+				<escala X="0.35" Y="0.35" Z="0.35" />
+				<cor R="0.419608" G="0.137255" B="0.556863"/>
+				<modelos>
+					<modelo ficheiro="esfera.3d" />
+				</modelos>
+			</grupo>
+
+			<grupo  nome= "Plutao">
+				<translacao X="234.5"  />
+				<escala X="0.0035" Y="0.03" Z="0.03" />
+				<cor R="0.647059" G="0.164706" B="0.164706"/>
+				<modelos>
+					<modelo ficheiro="esfera.3d" />
+				</modelos>
+			</grupo>
+		</cena>

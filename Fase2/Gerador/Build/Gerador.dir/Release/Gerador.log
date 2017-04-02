@@ -1,0 +1,4 @@
+﻿  Gerador.cpp
+C:\Users\Joao\Desktop\CG\Fase 1\Fase1\Gerador\Gerador.cpp(113): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joao\Desktop\CG\Fase 1\Fase1\Gerador\Gerador.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Gerador.vcxproj -> C:\Users\Joao\Desktop\CG\Fase 1\Fase1\Gerador\Build\Release\Gerador.exe
